@@ -1,0 +1,1 @@
+window.__remixManifest={"entry":{"module":"/build/entry.client-D4QUE756.js","imports":["/build/_shared/chunk-V4EMBJFH.js"]},"routes":{"root":{"id":"root","path":"","module":"/build/root-OHYVOYMZ.js","hasAction":false,"hasLoader":false,"hasClientAction":false,"hasClientLoader":false,"hasErrorBoundary":false}},"version":"8557316c","url":"/build/manifest-8557316C.js"};

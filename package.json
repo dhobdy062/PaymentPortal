@@ -1,17 +1,27 @@
 {
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build",
+    "typecheck": "tsc"
+  },
   "dependencies": {
     "@paypal/react-paypal-js": "^8.8.3",
-    "@remix-run/dev": "^2.16.5",
     "@remix-run/node": "^2.16.5",
     "@remix-run/react": "^2.16.5",
     "@remix-run/serve": "^2.16.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "resend": "^4.3.0"
+    "react-dom": "^18.2.0"
   },
-  "scripts": {
-    "build": "remix build",
-    "dev": "remix dev",
-    "start": "remix-serve build"
+  "devDependencies": {
+    "@remix-run/dev": "^2.16.5",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
