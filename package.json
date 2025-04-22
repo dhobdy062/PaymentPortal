@@ -1,15 +1,17 @@
 {
   "dependencies": {
     "@paypal/react-paypal-js": "^8.8.3",
+    "@remix-run/dev": "^2.16.5",
+    "@remix-run/node": "^2.16.5",
+    "@remix-run/react": "^2.16.5",
+    "@remix-run/serve": "^2.16.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "resend": "^4.3.0",
-    "@remix-run/node": "latest"
+    "resend": "^4.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build"
   }
 }
